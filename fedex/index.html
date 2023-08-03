@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/9fabc73ec8.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <!-- LOGO -->
+
+      <!-- NAVIGATION MENU -->
+      <ul class="nav-links">
+        <!-- USING CHECKBOX HACK -->
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+        <!-- NAVIGATION MENUS -->
+        <div class="menu">
+          <div class="logo">LOGO</div>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">About</a></li>
+
+          <li class="services">
+            <a href="/">Services</a>
+            <i class="fa-solid fa-angle-down"></i>
+            <!-- DROPDOWN MENU -->
+            <ul class="dropdown">
+              <li><a href="/">Dropdown 1 </a></li>
+              <li><a href="/">Dropdown 2</a></li>
+              <li><a href="/">Dropdown 2</a></li>
+              <li><a href="/">Dropdown 3</a></li>
+              <li><a href="/">Dropdown 4</a></li>
+            </ul>
+          </li>
+
+          <li><a href="/">Pricing</a></li>
+          <li><a href="/">Contact</a></li>
+        </div>
+      </ul>
+      <div class="search">
+        <input type="text" />
+        <a href="">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </a>
+      </div>
+    </nav>
+
+    <section class="login">
+      <h1>Enter your user ID and password to log in</h1>
+      <h5>create a user ID</h5>
+      <form>
+        <div class="login-info">
+          <input type="text" placeholder="USER ID"  class="placeholder"   name="" id="" />
+        </div>
+        <div class="login-info">
+          <input type="password" placeholder="PASSWORD" class="placeholder" name="" id="" />
+        </div>
+        <div class="checkbox">
+            <input style="display: inline-block; padding: 22px; "  type="checkbox" id="scales" name="scales" >     
+            <label for="vehicle1"> Remember my user ID.</label><br />
+        </div>
+      </form>
+      <button>LOG IN</button>
+      <h5><a href="">FORGOT YOUR USER ID OR PASSWORD? </a></h5>
+      <p>Need help?</p>
+      <h5><a href="">CUSTOMER SUPPORT </a></h5>
+    </section>
+  </body>
+</html>
